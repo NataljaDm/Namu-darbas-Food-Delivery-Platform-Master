@@ -1,0 +1,163 @@
+body {
+    flex-direction: row;
+    width: 1400px;
+}
+.main {
+    display: flex;
+}
+
+.left-meniu {
+    background-color: var(--main-color);
+}
+.left-meniu a {
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-left: 40px;
+    transition: all 0.4s;
+}
+  
+.left-meniu a:hover {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(250, 250, 250, 0.6);
+    color: var(--main-color);
+}
+.left-meniu .option {
+    margin-top: 15vh;
+}
+.left-meniu a i {
+    margin-right: 10px;
+ }
+.left-meniu .selected {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+}
+.head {
+    display: flex;
+    flex-direction: row;
+}
+main {
+    margin: 0;
+    
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+
+}
+.columm {
+    width: 60%;
+    float: left;
+}
+.second-columm {
+    width: 30%;
+   float: right;
+}
+.columm .food-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px; 
+}
+.columm .food-container {
+    width: 270px;
+    height: 330px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--product1);
+}
+.columm .grade-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+}
+.columm .grade {
+    display: flex;
+    gap: 10px;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 0.2em 0.5em;
+    margin-top: 15px;
+}
+.columm i {
+    color: yellow;
+}
+  .columm .grade-info {
+    color: white;
+}
+
+.columm .heart {
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 0.2em 0.2em;
+    font-size: 1.3em;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.columm .heart i {
+    color: red;
+}
+.columm .food-foto {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.columm .food-name {
+    margin-top: 30px;
+    line-height: 2em;
+    margin-left: 10px;
+}
+  .columm .food-name span {
+    background-color: var(--secondary-color);
+    padding: 0.3em 0.3em;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #e5bde5;
+}
+  
+  .columm .food-price {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.columm .meal2 {
+    background-color: var(--product2);
+}
+.columm .meal3 {
+    background-color: var(--product3);
+}
+.columm .meal4 {
+    background-color: var(--product4);
+}
+.columm .meal5 {
+    background-color: var(--product5);
+}
+.columm .meal6 {
+    background-color: var(--product6);
+}
+.columm .meal7 {
+    background-color: var(--product7);
+}
+.columm .meal8 {
+    background-color: var(--product8);
+}
+.columm .meal9 {
+    background-color: var(--product9);
+}
+.order {
+    display: inline-block;
+}
